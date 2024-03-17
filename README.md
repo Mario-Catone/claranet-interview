@@ -6,6 +6,7 @@ Contiene lo script bash che conta quanti script sono presenti in una directory. 
 ### cronJob.sh (Esercizio 2)
 Contiene la riga cron da eseguire ogni domenica per effettuare un backup tramite rsync.
 Ci si collega alla destinazione remota tramite SSH, quindi conviene impostare autenticazione key-based sull'host su cui andiamo a salvare il backup.
+Se il backup non va a buon fine, eventuali errori vengono salvati in un file nella home dello user.
 
 ### AWS_Homework (Esercizio 3)
 Contiene il PDF che motiva gli strumenti AWS utilizzati e l'architettura del sistema richiesto.
