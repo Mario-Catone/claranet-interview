@@ -1,7 +1,7 @@
 # File nel repository
 
 ### contaScript.sh (Esercizio 1)
-Contiene lo script bash che conta quanti script sono presenti in una directory. Lo script prende come directory in cui controllare il numero di file la directory da cui viene lanciato.
+Contiene lo script bash che conta quanti script sono presenti in una directory. Lo script prende come directory in cui controllare il numero di file la directory inserita come primo argomento.
 
 ### cronJob.sh (Esercizio 2)
 Contiene la riga cron da eseguire ogni domenica per effettuare un backup tramite rsync.
