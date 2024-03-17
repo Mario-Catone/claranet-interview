@@ -1,0 +1,1 @@
+0 3 * * 0 rsync -avz -e ssh /home/user/ user@10.209.40.50:/var/local/home_backup 2> /home/user/backup.log
