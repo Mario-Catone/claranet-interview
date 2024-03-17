@@ -4,8 +4,13 @@ echo "Programma: conta file in directory"
 
 declare -A arr
 
-dir=$(pwd)
+dir=$1
 
+if [[ $dir == "" ]]; then
+    echo "Inserisci directory come primo argomento dello script es: ./contaScript.sh /home/user/"
+    exit 1
+fi
+ 
 #Iterate on all files in the current dir
 for f in "$dir"/*; do
     #Take action only on files (not folders etc)
